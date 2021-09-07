@@ -236,7 +236,7 @@ public class addBill extends JPanel {
 				
 				
 				try {
-					Connection myConn= DriverManager.getConnection("jdbc:mysql://localhost:3306/demo","root","9411571534");
+					Connection myConn= DriverManager.getConnection("jdbc:mysql://localhost:3306/demo","root","satyam");
 					Statement myStat= myConn.createStatement();
 					String query="insert into bill(Bill_id,customer_id,username,address,Lastreading,Newreading,Unitused,rpu,surchargetax,duedate,total,billmonth) values('"+cust_type+"','" +cust_id+"','"+username+"','"+address+"','"+Lreading+"','"+nreading+"','"+uu+"','"+rpu+"','"+sct+"','"+dd+"','"+total+"','"+bm+"')";
 		              
