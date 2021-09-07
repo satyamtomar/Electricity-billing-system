@@ -106,7 +106,7 @@ public class adminlog extends JFrame {
 			public void actionPerformed(ActionEvent arg0)
 			{
 				try {
-					Connection myConn=DriverManager.getConnection("jdbc:mysql://localhost:3306/demo","root","9411571534");
+					Connection myConn=DriverManager.getConnection("jdbc:mysql://localhost:3306/demo","root","satyam");
 				   
 				
 			   }
