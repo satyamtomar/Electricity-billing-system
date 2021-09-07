@@ -84,7 +84,7 @@ public class swingProjectAdmin extends JFrame {
 	if(c==0) {
 				
 				try {
-					Connection myConn=DriverManager.getConnection("jdbc:mysql://localhost:3306/demo","root","9411571534");
+					Connection myConn=DriverManager.getConnection("jdbc:mysql://localhost:3306/demo","root","satyam");
 				   Statement myStat=myConn.createStatement();
 				   ResultSet myRs=myStat.executeQuery("select * from admin where username='"+username+"'"+"and password="+"'"+password+"'");
 				   if(myRs.next())
