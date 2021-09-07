@@ -112,7 +112,7 @@ public class Editpanel extends JPanel {
 					String ln=textField_2.getText();
 					String em=textField_3.getText();
 					String ps=passwordField.getText();
-					Connection connection =DriverManager.getConnection("jdbc:mysql://localhost:3306/demo","root","9411571534");
+					Connection connection =DriverManager.getConnection("jdbc:mysql://localhost:3306/demo","root","satyam");
 					Statement myStat= connection.createStatement();
 					
 					String query="update user set username='"+nus+"',first_name='"+fn+"',last_name='"+ln+"',email='"+em+"',password='"+ps+"' where username='"+us+"'"  ;
