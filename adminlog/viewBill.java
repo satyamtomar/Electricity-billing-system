@@ -80,7 +80,7 @@ public class viewBill extends JPanel {
      private void loadData() {
 	String url = "jdbc:mysql://localhost:3306/demo";
 	String root = "root";
-	String pass = "9411571534";
+	String pass = "satyam";
 
         try {
         	Connection conn = DriverManager.getConnection(url, root, pass);
