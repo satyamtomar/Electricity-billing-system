@@ -127,7 +127,7 @@ public class swingprojectSignup extends JFrame {
 				try 
 				{
 					int Ussn = 0;
-				  Connection myConn=DriverManager.getConnection("jdbc:mysql://localhost:3306/demo ","root","9411571534");
+				  Connection myConn=DriverManager.getConnection("jdbc:mysql://localhost:3306/demo ","root","satyam");
 				  Statement myStat=myConn.createStatement();
 				  Statement myStat1=myConn.createStatement();
 				  String query1="select Ussn from user order by Ussn desc limit 0,1";
